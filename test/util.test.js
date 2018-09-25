@@ -8,4 +8,10 @@ describe('Util', () => {
       assert.strictEqual(util.return42(), 42)
     })
   })
+
+  describe('returns42Async', () => {
+    it('should return 42 when called asynchronously', async () => {
+      assert.strictEqual(await util.return42Async(), 42)
+    })
+  })
 })
