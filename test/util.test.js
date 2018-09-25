@@ -1,6 +1,6 @@
-const assert = require('assert')
+import assert from 'assert'
 
-const { util } = require('../')
+import { util } from '..'
 
 describe('Util', () => {
   describe('returns42', () => {

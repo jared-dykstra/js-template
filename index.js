@@ -1,5 +1,3 @@
-const util = require('./src/util')
+import * as util from './src/util'
 
-module.exports = {
-  util
-}
+export { util }

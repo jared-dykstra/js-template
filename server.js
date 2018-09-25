@@ -1,4 +1,4 @@
-const { util } = require('.')
+import { util } from '.'
 
 const main = async () => {
   console.log('hello world')
